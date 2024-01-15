@@ -42,6 +42,8 @@ main section p{
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+}
 
-
+main section h1 span{
+    color: grey;
 }
