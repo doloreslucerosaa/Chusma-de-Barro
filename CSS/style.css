@@ -18,9 +18,9 @@ header{
 L
 /* Header Styles - Logo */
 .logo{
-    width: 50px;
-    height:50px;
-    display: flex;
+transform: scale(0.5);
+    display: block;
+    margin: 0 auto;
 }
 
 header ul{
@@ -58,3 +58,21 @@ main section p{
 main section h1 span{
     color: grey;
 }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
