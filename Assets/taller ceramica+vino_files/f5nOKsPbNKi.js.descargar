@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("LSCreateDataTrace",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1],c=[],d=[];return b.sequence([function(d){return c[0]=b.i64.of_float(Date.now()),b.db.table(153).add({traceId:a[0],initTimestampMs:c[0],traceType:a[4],shouldFlush:!1,contextOne:a[1],contextTwo:a[2],contextThree:a[3]})},function(a){return b.resolve(d)}])}e.exports=a}),null);
+__d("LSCreateDataTraceID.nop",["LSRequestId","LSResult","Promise"],(function(a,b,c,d,e,f,g){"use strict";var h;a=function(a,d){return(h||(h=b("Promise"))).resolve(c("LSResult")(c("LSRequestId").generate()))};g["default"]=a}),98);
