@@ -23,6 +23,7 @@ L
     left: 10px;
     display: flex;
     margin: 0;
+    justify-content: space-around;
 }
 
 header ul{
