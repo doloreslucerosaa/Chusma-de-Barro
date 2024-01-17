@@ -41,6 +41,12 @@ header ul li a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Pseudoclase Nav Bar */
+
+header ul li a:hover{
+    color: grey;
+}
+
 main section h1{
     color:black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
