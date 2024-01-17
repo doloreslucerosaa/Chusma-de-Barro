@@ -44,8 +44,7 @@ header ul li a {
 /* Pseudoclase Nav Bar */
 
 header ul li a:hover{
-    color:red;
-    border: 1px solid black;
+    color: grey;
 }
 
 main section h1{
