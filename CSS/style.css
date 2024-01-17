@@ -18,9 +18,10 @@ header{
 L
 /* Header Styles - Logo */
 .logo{
-transform: scale(0.5);
-    display: block;
-    margin: 0 auto;
+    top: 10px;
+    left: 0px;
+    display: flex;
+    margin: 0;
 }
 
 header ul{
