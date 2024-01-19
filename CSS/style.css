@@ -131,11 +131,18 @@ footer {
     color: white;
 }
 
-.home-buttom:focus{
-    background-color: blue;
-    border: 2px solid #C08ADD;
+.home-buttom{
+    background-color: #aaa8a8;
+    border: 1px solid yellow;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
 }
 
+.home-buttom:hover{
+    background-color: yellow;
+}
 /*Formulario de contacto - Archivo contacto*/
 form{
     margin:25px;
