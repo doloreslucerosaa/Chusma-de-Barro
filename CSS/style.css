@@ -131,17 +131,17 @@ footer {
     color: white;
 }
 
-.home-buttom{
-    background-color: #aaa8a8;
-    border: 1px solid yellow;
+.Home-buttom{
+    background-color: #444;
+    border: 1px solid #bbbaba;
     padding: 15px;
     border-radius: 10px;
     color: white;
     text-decoration: none;
 }
 
-.home-buttom:hover{
-    background-color: yellow;
+.Home-buttom:hover{
+    background-color: #92648a;
 }
 /*Formulario de contacto - Archivo contacto*/
 form{
