@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #ffe4c4;
+    background-color:grey;
 }
 
 header{
@@ -116,7 +116,7 @@ footer {
     margin: 0 20px;
   }
  
-  /*Talleres styles */
+  /*Talleres boton inicio */
 .home-buttom {
     background-color: #444444;
     margin: 35px;
@@ -130,4 +130,26 @@ footer {
 
 .home-buttom:focus{
     background-color: blue;
+    border: 2px solid #C08ADD;
+}
+
+/*Formulario de contacto - Archivo contacto*/
+form{
+    margin:25px;
+}
+
+form label{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form input{
+    border: 2px solid #444444;
+    padding: 10px;
+    background-color: ;
+    border-radius: 9px;
+}
+
+form input:focus{
+    border: 3px solid #c08add;
 }
