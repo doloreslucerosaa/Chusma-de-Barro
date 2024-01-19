@@ -4,13 +4,17 @@
     box-sizing:border-box;
 }
 
-body{
-    background-color:grey;
+main-color {
+    background-color: #aaa8a8;
 }
 
 header{
-    padding: 30px;
+    background-color: #aaa8a8;
+    padding: 30 px;
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 20px;
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid black;
@@ -100,12 +104,11 @@ main section h1 span{
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #aaa8a8;
     padding: 20px 0;
   }
   
-  .footer-content {
+.footer-content {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -144,9 +147,9 @@ form label{
 }
 
 form input{
-    border: 2px solid #444444;
+    border: 2px solid #bbbaba;
     padding: 10px;
-    background-color: ;
+    background-color: #bbbaba;
     border-radius: 9px;
 }
 
