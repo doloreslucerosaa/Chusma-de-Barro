@@ -56,7 +56,12 @@ main section h1{
     text-align: center;
     margin-top: 30px;
 }
-
+.image-background-home{
+    background-image: url(../Assets/image-inicio-ceramicos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
 main section p{
     margin-top: 20px;
     color: black;
