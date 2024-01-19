@@ -15,7 +15,7 @@ header{
     align-items: center;
     border-bottom: 1px solid black;
 }
-L
+
 /* Header Styles - Logo */
 .logo{
     top: 10px;
@@ -64,6 +64,16 @@ main section p{
 
 main section h1 span{
     color: grey;
+}
+/* Main image - Homr */
+
+.image-index:{
+    margin: 25px;
+    width: 50%;
+}
+
+.image-index:hover{
+    border: 2px solid green;
 }
 
 footer {
