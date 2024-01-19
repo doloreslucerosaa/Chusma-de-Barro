@@ -63,9 +63,10 @@ main section h1{
     height: 550px;
 }
 
-.image-index{
-    align-items: center;
+.image-background:hover{
+    background-image: url(../Assets/image-inicio-ceramicos-2.png);
 }
+
 main section p{
     margin-top: 20px;
     color: black;
