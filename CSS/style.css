@@ -61,10 +61,12 @@ main section h1{
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
+    transition: 1s;
+    cursor: pointer;
 }
 
-.image-background:hover{
-    background-image: url(../Assets/image-inicio-ceramicos-2.png);
+.image-background-home:hover{
+    background-image: url(../Assets/image-inicio-ceramicos-3.png);
 }
 
 main section p{
@@ -113,4 +115,19 @@ footer {
     flex: 1;
     margin: 0 20px;
   }
-  
+ 
+  /*Talleres styles */
+.home-buttom {
+    background-color: #444444;
+    margin: 35px;
+    padding: 15px 25px;
+    border:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    border-radius: 5p;
+    color: white;
+}
+
+.home-buttom:focus{
+    background-color: blue;
+}
