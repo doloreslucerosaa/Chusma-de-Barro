@@ -127,6 +127,15 @@ opacity: 1;
     color: purple;
 }
 
+
+/* Box Moeling y Flex Box */
+
+.chusma.styles{
+    width: 100%;
+    height: 250px;
+    background-color:#aaa8a8;
+}
+
 footer {
     background-color: #aaa8a8;
     padding: 20px 0;
