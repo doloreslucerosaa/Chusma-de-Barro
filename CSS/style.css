@@ -83,6 +83,30 @@ main section p{
 main section h1 span{
     color: grey;
 }
+/* Carousel - Styles */
+
+.carousel{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.slides{
+    width: 80%;
+    height: 300px;
+    display: none;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: opacity 0.5s;
+}
+
+.carousel-item-active{
+display:block;
+opacity: 1;
+}
+
+
 /* Main image - Home */
 
 .image-index{
