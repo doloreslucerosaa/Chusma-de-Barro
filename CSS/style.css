@@ -101,7 +101,7 @@ main section h1 span{
     transition: opacity 0.5s;
 }
 
-.carousel-item-active{
+.carousel-item active{
 display:block;
 opacity: 1;
 }
