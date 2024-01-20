@@ -83,6 +83,30 @@ main section p{
 main section h1 span{
     color: grey;
 }
+/* Carousel - Styles */
+
+.carousel{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.slides{
+    width: 80%;
+    height: 300px;
+    display: none;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: opacity 0.5s;
+}
+
+.carousel-item active{
+display:block;
+opacity: 1;
+}
+
+
 /* Main image - Home */
 
 .image-index{
@@ -101,6 +125,71 @@ main section h1 span{
 
 .card-title:active{
     color: purple;
+}
+
+
+/* Box Moeling y Flex Box - La Casita*/
+
+.lacasita{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+}
+
+.horarionodisp{
+    text-decoration: line-through;
+}
+
+.horarioslacasita{
+    background-color: yellow;
+    text-align: center;
+    display: block;
+    padding-top: 65px;
+    padding-left: 60px;
+    padding-right: 35px;
+    padding-bottom: 45px;
+}
+.enlacehome{
+    display: inline;
+    background-color: #92648a;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    padding: 10px 17 px;
+    border-radius: 5px;
+    border-top: 1px solid blue;
+    border-bottom: 2px dotted green;
+    margin-bottom: 100px;
+    margin-top: 65px;
+    margin-left: 25px;
+
+}
+
+/* Ceramico alumnos Box modeling y flexbox*/
+.ceramico-alumnos{
+    background-color: bisque;
+}
+.ceramico-alumnos img{
+    position: sticky;
+    top: 85px;
+    width: 500px;
+    margin: 85px;
+}
+
+
+
+/* Icono Whatsapp*/
+.botton-wapp{
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 1000;
 }
 
 footer {
