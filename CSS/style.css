@@ -171,10 +171,26 @@ opacity: 1;
 
 }
 
-.botton-wapp{
-    position: fixed;
+/* Ceramico alumnos Box modeling y flexbox*/
+.ceramico-alumnos{
+    background-color: aqua;
+}
+.ceramico-alumnos img{
+    position: sticky;
+    top: 85px;
+    width: 100px;
+    margin: 85px;
 }
 
+
+
+/* Icono Whatsapp*/
+.botton-wapp{
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 1000;
+}
 
 footer {
     background-color: #aaa8a8;
