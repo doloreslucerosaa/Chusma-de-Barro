@@ -137,12 +137,22 @@ opacity: 1;
     text-align: center;
     font-size: 2rem;
     width: 100%;
-    height: 250px;
+    height: 100px;
     background-color: grey;
 }
 
 .horarionodisp{
     text-decoration: line-through;
+}
+
+.horarioslacasita{
+    background-color: yellow;
+    text-align: center;
+    display: block;
+    padding-top: 65px;
+    padding-left: 60px;
+    padding-right: 35px;
+    padding-bottom: 45px;
 }
 
 footer {
