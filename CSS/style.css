@@ -174,12 +174,13 @@ opacity: 1;
 /* Ceramico alumnos Box modeling y flexbox*/
 .ceramico-alumnos{
     background-color: bisque;
+    margin-bottom: 16rem;   
 }
 .ceramico-alumnos img{
-    position: sticky;
-    top: 85px;
-    width: 500px;
-    margin: 85px;
+    position: relative;
+    top: 105px;
+    width: 25rem;
+    left: 640px;
 }
 
 
