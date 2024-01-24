@@ -14,7 +14,7 @@ header{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 0 20px;
+    margin: auto;
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px solid black;
@@ -24,11 +24,18 @@ header{
 .logo{
     width: 1o rem;
     top: 10px;
-    left: 0px;
+    left: 50px;
     display: flex;
-    margin: 0;
+    
+    
 }
 
+header{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 header ul{
     color: black;
     text-decoration: none;
@@ -42,11 +49,27 @@ header ul{
 header ul li a {
     color: black;
     text-decoration: none;
-    margin: 5px;
+    margin: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: 1s;
 }
 
+header div a {
+    text-decoration: none;
+    margin: 15px;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* icon menu hamburguesa */
+
+.iconmenu{
+    width: 25px;
+    display: flex;
+    align-items: center;
+
+
+}
 /* Pseudoclase Nav Bar */
 
 header ul li a:hover{
@@ -60,6 +83,9 @@ main section h1{
     text-align: center;
     margin-top: 30px;
 }
+
+/*ESTILO HEADER FLEXBOX */
+
 .image-background-home{
     background-image: url(../Assets/image-inicio-ceramicos.png);
     background-repeat: no-repeat;
@@ -78,6 +104,10 @@ main section p{
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    margin:auto;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: lighter;
 }
 
 main section h1 span{
@@ -173,13 +203,14 @@ opacity: 1;
 
 /* Ceramico alumnos Box modeling y flexbox*/
 .ceramico-alumnos{
-    background-color: bisque;
+    background-color: lightgreen;
+    margin-bottom: 16rem;   
 }
 .ceramico-alumnos img{
-    position: sticky;
-    top: 85px;
-    width: 500px;
-    margin: 85px;
+    position: relative;
+    top: 105px;
+    width: 25rem;
+    left: 640px;
 }
 
 
