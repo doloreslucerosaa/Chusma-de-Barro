@@ -1,0 +1,36 @@
+header{
+    display:flex;
+    border-bottom: 1px solid grey;
+    justify-content: space-between;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+/* Logo Styles */
+
+.logo{
+    width: 1o rem;
+    top: 10px;
+    left: 50px;
+    display: flex;
+}
+
+/* Nav Bar Styles */
+
+nav{
+    ul{
+        list-style-type: none;
+        display: flex;
+        li{
+            a{
+                text-decoration: none;
+                color:black;
+                transition: 1s;
+
+                &:hover{
+                    color: white;
+            }
+        }
+    }
+    }
+}
