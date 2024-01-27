@@ -1,14 +1,17 @@
+
+$color-principal: grey;
+
 main{
 
 
-section{
+section-principal{
     background-image: url(../Assets/image-inicio-ceramicos.png);}
-section:hover{
+section-principal:hover{
         background-image: url(../Assets/image-inicio-ceramicos-3.png);
         }
 
 h1{
-    color:black;
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3rem;
     text-align: center;
@@ -17,13 +20,13 @@ h1{
     transition: 1s;
     cursor: pointer;
     span{
-    color: grey;}
+    color: $color-principal; }
     }
 
 p{
+    color: $color-principal;
     margin-top: 0%;
     margin-bottom: 10%;
-    color: black;
     text-align: center;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
