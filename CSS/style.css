@@ -46,6 +46,38 @@ nav ul li a:hover {
   color: whitesmoke;
 }
 
+main section {
+  background-image: url(../Assets/image-inicio-ceramicos.png);
+}
+main section:hover {
+  background-image: url(../Assets/image-inicio-ceramicos-3.png);
+}
+main h1 {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 25px;
+  height: 550px;
+  transition: 1s;
+  cursor: pointer;
+}
+main h1 span {
+  color: grey;
+}
+main p {
+  margin-top: 0%;
+  margin-bottom: 10%;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 /* Anuncio Styles */
 .anuncio {
   padding: 5px;
