@@ -9,7 +9,7 @@ section-principal{
 section-principal:hover{
         background-image: url(../Assets/image-inicio-ceramicos-3.png);
         }
-
+    
 h1{
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,9 +20,9 @@ h1{
     transition: 1s;
     cursor: pointer;
     span{
-    color: $color-principal; }
+    color: $color-principal;
     }
-
+}
 p{
     color: $color-principal;
     margin-top: 0%;
