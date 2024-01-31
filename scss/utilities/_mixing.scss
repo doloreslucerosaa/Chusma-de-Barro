@@ -1,0 +1,7 @@
+@mixin fuente-parrafos($size, $family){
+    font-size: $size;
+    font-family: $family;
+    $font-weight: $grosor;
+    color: $color;
+
+}

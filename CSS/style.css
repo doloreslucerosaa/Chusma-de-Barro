@@ -1,285 +1,128 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing:border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
-main-color {
-    background-color: #aaa8a8;
+body {
+  background-color: whitesmoke;
 }
 
-header{
-    background-color: #aaa8a8;
-    padding: 30 px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: auto;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 1px solid black;
+/* Anuncio Styles */
+.anuncio {
+  padding: 5px;
+  background-color: yellow;
+  height: 40px;
+}
+.anuncio p {
+  text-align: center;
+  font-size: 15px;
 }
 
-/* Header Styles - Logo */
-.logo{
-    width: 1o rem;
-    top: 10px;
-    left: 50px;
-    display: flex;
-    
-    
+header {
+  height: 100px;
+  display: flex;
+  border-bottom: 1px solid black;
+  justify-content: space-around;
+  padding: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: grey;
 }
 
-header{
-    border-bottom: 1px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-header ul{
-    color: black;
-    text-decoration: none;
-    margin: 15px;
-    list-style-type: none;
-    display: flex;
-    list-style-type: none;
-    display: flex;
+/* Logo Styles */
+.logo-container {
+  margin: 0%;
+  padding: 0%;
 }
 
-header ul li a {
-    color: black;
-    text-decoration: none;
-    margin: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    transition: 1s;
+.logo {
+  max-width: 50%;
+  height: auto;
+  display: flex;
+  padding: 0px;
+  margin-top: 0px;
+  margin-left: 0%;
 }
 
-header div a {
-    text-decoration: none;
-    margin: 15px;
-    color:black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* Nav Bar Styles */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  transition: 1s;
+  margin: 15px;
+  font-family: system-ui;
+  font-size: 24px;
+  font-weight: 400;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav ul li a:hover {
+  color: whitesmoke;
 }
 
-/* icon menu hamburguesa */
-
-.iconmenu{
-    width: 25px;
-    display: flex;
-    align-items: center;
-
-
+main h1 {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 25px;
+  height: 50px;
+  transition: 1s;
+  cursor: pointer;
 }
-/* Pseudoclase Nav Bar */
-
-header ul li a:hover{
-    color: lightcoral;
-    }
-
-main section h1{
-    color:black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 30px;
+main h1 span {
+  color: black;
 }
-
-/*ESTILO HEADER FLEXBOX */
-
-.image-background-home{
-    background-image: url(../Assets/image-inicio-ceramicos.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 550px;
-    transition: 1s;
-    cursor: pointer;
+main p {
+  color: black;
+  margin-top: 0%;
+  margin-bottom: 55px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.image-background-home:hover{
-    background-image: url(../Assets/image-inicio-ceramicos-3.png);
+.boton-principal {
+  background-color: yellow;
+  padding: 25px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-main section p{
-    margin-top: 20px;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    margin:auto;
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: lighter;
-}
-
-main section h1 span{
-    color: grey;
-}
-/* Carousel - Styles */
-
-.carousel{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    border: 1px solid black;
-}
-
-.slides{
-    width: 80%;
-    height: 300px;
-    display: none;
-    padding: 20px;
-    box-sizing: border-box;
-    transition: opacity 0.5s;
-}
-
-.carousel-item active{
-display:block;
-opacity: 1;
-}
-
-
-/* Main image - Home */
-
-.image-index{
-    margin: 25px;
-    width: 50%;
-    transition: 1s;
-}
-
-.image-index:hover{
-    border: 2px solid lightcoral;
-    opacity: 80%;
-    }
-.card-title{
-    transition: 1s;
-}
-
-.card-title:active{
-    color: purple;
-}
-
-
-/* Box Moeling y Flex Box - La Casita*/
-
-.lacasita{
-    color: black;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    font-size: 2rem;
-    width: 100%;
-    height: 100px;
-    background-color: grey;
-}
-
-.horarionodisp{
-    text-decoration: line-through;
-}
-
-.horarioslacasita{
-    background-color: yellow;
-    text-align: center;
-    display: block;
-    padding-top: 65px;
-    padding-left: 60px;
-    padding-right: 35px;
-    padding-bottom: 45px;
-}
-.enlacehome{
-    display: inline;
-    background-color: #92648a;
-    text-decoration: none;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 13px;
-    padding: 10px 17 px;
-    border-radius: 5px;
-    border-top: 1px solid blue;
-    border-bottom: 2px dotted green;
-    margin-bottom: 100px;
-    margin-top: 65px;
-    margin-left: 25px;
-
-}
-
-/* Ceramico alumnos Box modeling y flexbox*/
-.ceramico-alumnos{
-    background-color: lightgreen;
-    margin-bottom: 16rem;   
-}
-.ceramico-alumnos img{
-    position: relative;
-    top: 105px;
-    width: 25rem;
-    left: 640px;
-}
-
-
-
-/* Icono Whatsapp*/
-.botton-wapp{
-position: fixed;
-bottom: 20px;
-right: 20px;
-z-index: 1000;
-}
-
-footer {
-    background-color: #aaa8a8;
-    padding: 20px 0;
+@media (min-width: 420px) {
+  body {
+    font-size: 12px;
   }
-  
-.footer-content {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 20px;
   }
-  
-  .footer-section {
-    flex: 1;
-    margin: 0 20px;
-  }
- 
-  /*Talleres boton inicio */
-.home-buttom {
-    background-color: #444444;
-    margin: 35px;
-    padding: 15px 25px;
-    border:0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
-    border-radius: 5p;
-    color: white;
+}
+.boton, .boton-2 {
+  background-color: grey;
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  margin: 55px 25px;
 }
 
-.Home-buttom{
-    background-color: #444;
-    border: 1px solid #bbbaba;
-    padding: 15px;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
+.boton-principal {
+  background-color: yellow;
+  padding: 25px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.Home-buttom:hover{
-    background-color: #92648a;
-}
-/*Formulario de contacto - Archivo contacto*/
-form{
-    margin:25px;
-}
-
-form label{
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-form input{
-    border: 2px solid #bbbaba;
-    padding: 10px;
-    background-color: #bbbaba;
-    border-radius: 9px;
-}
-
-form input:focus{
-    border: 3px solid #c08add;
-}
+/*# sourceMappingURL=style.css.map */

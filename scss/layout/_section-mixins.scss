@@ -1,0 +1,16 @@
+@mixin fuente-parrafos($size, $family, $grosor, $color){
+    font-size: $size;
+    font-family: $family;
+    $font-weight: $grosor;
+    color: $color;}
+
+
+main{
+    .mixins{
+    background-color: grey;
+    margin-top: 68px;
+    .parrafo-1{
+        @include fuente-parrafos(18px,arial,bold,yellow )
+
+    } }  
+}
