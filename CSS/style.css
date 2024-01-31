@@ -1,3 +1,24 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+/* Anuncio Styles */
+.anuncio {
+  padding: 5px;
+  background-color: yellow;
+  height: 40px;
+}
+.anuncio p {
+  text-align: center;
+  font-size: 15px;
+}
+
 header {
   height: 100px;
   display: flex;
@@ -46,10 +67,10 @@ nav ul li a:hover {
   color: whitesmoke;
 }
 
-main section {
+main section-principal {
   background-image: url(../Assets/image-inicio-ceramicos.png);
 }
-main section:hover {
+main section-principal:hover {
   background-image: url(../Assets/image-inicio-ceramicos-3.png);
 }
 main h1 {
@@ -66,9 +87,9 @@ main h1 span {
   color: grey;
 }
 main p {
+  color: grey;
   margin-top: 0%;
   margin-bottom: 10%;
-  color: black;
   text-align: center;
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -78,25 +99,15 @@ main p {
   align-items: center;
 }
 
-/* Anuncio Styles */
-.anuncio {
-  padding: 5px;
-  background-color: yellow;
-  height: 40px;
+@media (min-width: 420px) {
+  body {
+    font-size: 12px;
+  }
 }
-.anuncio p {
-  text-align: center;
-  font-size: 15px;
-}
-
-* {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-}
-
-main {
-  background-color: whitesmoke;
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
