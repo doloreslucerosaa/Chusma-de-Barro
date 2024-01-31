@@ -67,29 +67,23 @@ nav ul li a:hover {
   color: whitesmoke;
 }
 
-main section-principal {
-  background-image: url(../Assets/image-inicio-ceramicos.png);
-}
-main section-principal:hover {
-  background-image: url(../Assets/image-inicio-ceramicos-3.png);
-}
 main h1 {
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 3rem;
   text-align: center;
   margin-top: 25px;
-  height: 550px;
+  height: 50px;
   transition: 1s;
   cursor: pointer;
 }
 main h1 span {
-  color: grey;
+  color: black;
 }
 main p {
-  color: grey;
+  color: black;
   margin-top: 0%;
-  margin-bottom: 10%;
+  margin-bottom: 55px;
   text-align: center;
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -97,6 +91,13 @@ main p {
   font-weight: 400;
   justify-content: flex-start;
   align-items: center;
+}
+
+.boton-principal {
+  background-color: yellow;
+  padding: 25px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media (min-width: 420px) {
@@ -108,6 +109,20 @@ main p {
   body {
     font-size: 20px;
   }
+}
+.boton, .boton-2 {
+  background-color: grey;
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  margin: 55px 25px;
+}
+
+.boton-principal {
+  background-color: yellow;
+  padding: 25px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
