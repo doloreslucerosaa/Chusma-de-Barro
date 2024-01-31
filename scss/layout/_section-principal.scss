@@ -36,3 +36,14 @@ p{
     align-items: center;
 }
 }
+
+.boton{
+    background-color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 55px 25px;
+}
+
+.boton-2{
+    @extend .boton;
+}
